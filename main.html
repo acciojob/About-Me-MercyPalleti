@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Profile</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f7f9fc;
+    margin: 40px;
+  }
+  .card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  img {
+    width: 150px; height: 150px;
+    border-radius: 10px;
+  }
+  .info { margin-left: 20px; }
+  .header { display: flex; align-items: center; }
+  h3 { color: #0a58ca; margin-bottom: 5px; }
+  .skills { margin-top: 25px; }
+  .bar {
+    background: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 8px 0;
+  }
+  .bar span {
+    display: block;
+    height: 10px;
+    background: #0a58ca;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <img src="profile.jpg" alt="Profile Picture">
+    <div class="info">
+      <h3>Name</h3><p>Shubham Bhola</p>
+      <h3>Profile</h3><p>Software Developer</p>
+      <h3>Email</h3><p>abcdef796@gmail.com</p>
+    </div>
+  </div>
 
+  <h3>About me</h3>
+  <p>I am a self-starter passionate about adapting to new technologies and tackling challenges head-on. My focus lies in software development using the MERN stack and data structures & algorithms.</p>
+  <p>I believe in determination, creativity, and continuous learning to contribute effectively to society.</p>
+
+  <h3>Skills</h3>
+  <div class="skills">
+    <p>React, CSS, JavaScript</p>
+    <div class="bar"><span style="width:95%"></span></div>
+
+    <p>Node.js, MongoDB</p>
+    <div class="bar"><span style="width:90%"></span></div>
+
+    <p>C/C++, Python, Batch</p>
+    <div class="bar"><span style="width:99%"></span></div>
+
+    <p>AWS, Hadoop</p>
+    <div class="bar"><span style="width:93%"></span></div>
+  </div>
+</div>
+</body>
+</html>
